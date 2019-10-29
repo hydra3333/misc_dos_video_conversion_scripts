@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<videoredo_settings date="2019-10-26 14:22:35" version="6.60.4.806" company="DRD Systems" application="VideoReDo-TVSuite6" restore_clear="yes">
+	<AdvancedStream>
+		<DefaultEncoder type="dword" value="2"/>
+		<ElemAudioMsecBetweenTags type="dword" value="0"/>
+		<ElemFrameBetweenTags type="dword" value="0"/>
+		<EncoderConformityChecks type="dword" value="1"/>
+		<IgnoreTSPMTs type="dword" value="0"/>
+		<IncludeLeadingBFrames type="dword" value="1"/>
+		<MBForReadStreamAnalyze type="dword" value="100"/>
+		<MP4VideoMuxBufferSize type="dword" value="30"/>
+		<MaxAudioFrameErrors type="dword" value="32000"/>
+		<MaxBufferLength type="dword" value="8192"/>
+		<MinBufferLength type="dword" value="1024"/>
+		<MultipleAudioStreamSupport type="dword" value="2"/>
+		<NumberOfPTSCheckpoints type="dword" value="8"/>
+		<PMTSamplePoints type="dword" value="3"/>
+		<RecodeBFactorPCT type="dword" value="120"/>
+		<RecodeMinimumQuant type="dword" value="250"/>
+		<RecodePFactorPCT type="dword" value="120"/>
+		<RecodeTargetPct type="dword" value="90"/>
+		<ResyncOptions type="dword" value="1"/>
+		<ResyncSensitivity type="dword" value="2"/>
+		<SkipPIDsWithCA type="dword" value="0"/>
+	</AdvancedStream>
+	<AudioAlert>
+		<BringWindowToTop type="dword" value="0"/>
+		<OutputAlertAudioFilename type="sz"/>
+		<OutputCompleteAlert type="dword" value="0"/>
+	</AudioAlert>
+	<Batch_Manager name="Batch Manager">
+		<Height type="dword" value="596"/>
+		<Maximized type="dword" value="0"/>
+		<Width type="dword" value="810"/>
+	</Batch_Manager>
+	<Batch_Processing name="Batch Processing">
+		<RunningPlus type="dword" value="1"/>
+	</Batch_Processing>
+	<BatchParameters>
+		<CloseWhenIdle type="dword" value="0"/>
+		<CloseWithVRD type="dword" value="0"/>
+		<IdleMinutes type="dword" value="5"/>
+		<LaunchType type="dword" value="0"/>
+		<MinimizeToTray type="dword" value="0"/>
+		<RetentionDays type="dword" value="5"/>
+		<ShutdownPCOnIdleClose type="dword" value="0"/>
+		<StartMinimized type="dword" value="0"/>
+		<StartRunning type="dword" value="0"/>
+		<WatchFolder type="sz"/>
+	</BatchParameters>
+	<ChapterMarkers>
+		<AtCutPoints type="dword" value="1"/>
+		<AtSceneMarkers type="dword" value="1"/>
+		<AutoCreateChapters type="dword" value="0"/>
+		<EqualSpacingExclusive type="dword" value="1"/>
+		<EqualSpacingInterval type="dword" value="2"/>
+		<EqualSpacingType type="dword" value="0"/>
+		<ImportChaptersOnOpen type="dword" value="0"/>
+		<IncludeFirstFrame type="dword" value="0"/>
+		<MinimumIntervalSecs type="dword" value="1"/>
+		<OutputFileMask type="sz" value="%F_Chapters.txt"/>
+		<OutputFileTypes type="dword" value="0"/>
+		<OutputLineFormat type="sz" value="%T"/>
+		<TimecodeFormat type="dword" value="0"/>
+		<UseEqualSpacing type="dword" value="1"/>
+	</ChapterMarkers>
+	<CharmParameters>
+		<CharmFunc1 type="dword" value="1"/>
+		<CharmFunc2 type="dword" value="2"/>
+		<CharmFunc3 type="dword" value="3"/>
+		<CharmFunc4 type="dword" value="4"/>
+		<CharmFunc5 type="dword" value="5"/>
+		<CharmFunc6 type="dword" value="6"/>
+		<CharmText1 type="sz"/>
+		<CharmText2 type="sz"/>
+		<CharmText3 type="sz"/>
+		<CharmText4 type="sz"/>
+		<CharmText5 type="sz"/>
+		<CharmText6 type="sz"/>
+	</CharmParameters>
+	<CustomButtonParameters>
+		<CustomFunc1 type="dword" value="2"/>
+		<CustomFunc2 type="dword" value="0"/>
+		<CustomFunc3 type="dword" value="0"/>
+		<CustomFunc4 type="dword" value="0"/>
+		<CustomFunc5 type="dword" value="0"/>
+		<CustomFunc6 type="dword" value="0"/>
+		<CustomOption1 type="sz"/>
+		<CustomOption2 type="sz"/>
+		<CustomOption3 type="sz"/>
+		<CustomOption4 type="sz"/>
+		<CustomOption5 type="sz"/>
+		<CustomOption6 type="sz"/>
+		<CustomText1 type="sz"/>
+		<CustomText2 type="sz"/>
+		<CustomText3 type="sz"/>
+		<CustomText4 type="sz"/>
+		<CustomText5 type="sz"/>
+		<CustomText6 type="sz"/>
+	</CustomButtonParameters>
+	<DebugOptions/>
+	<DVDFolders>
+		<AutoMinimizeBurner type="dword" value="0"/>
+		<BurnProtocol type="dword" value="0"/>
+		<DVDEncoderSpeed type="dword" value="0"/>
+		<FolderType type="dword" value="0"/>
+		<ForceSilentAC3 type="dword" value="0"/>
+		<HideVRDDuringBurn type="dword" value="1"/>
+		<IncludeABInDVDDriveSearch type="dword" value="0"/>
+		<MaximumBurnSpeed type="dword" value="0"/>
+		<OverheadMB type="dword" value="50"/>
+		<PadBurnDataTo1GB type="dword" value="1"/>
+		<PrivateTemplatesFolder type="sz" value="G:\HDTV"/>
+		<TempFolderName type="sz"/>
+		<WarnIfAddingNonCompliant type="dword" value="0"/>
+	</DVDFolders>
+	<DVRMS/>
+	<DVRMSOutput>
+		<ClearDatabaseAssoc type="dword" value="1"/>
+		<DVRMSVideoBufferMB type="dword" value="3"/>
+		<MetadataPrompt type="dword" value="2"/>
+		<PatchDVRMSDuration type="dword" value="1"/>
+		<ProcessClosedCaptions type="dword" value="1"/>
+		<ResetDateAndTime type="dword" value="0"/>
+		<Subtitle type="sz"/>
+		<SubtitleDesc type="sz"/>
+		<TagStreamTypes type="dword" value="1"/>
+		<Title type="sz"/>
+	</DVRMSOutput>
+	<FavoritePlaces>
+		<Place0 type="sz" value="G:\HDTV"/>
+		<Place1 type="sz" value="T:\HDTV\autoTVS-mpg\Converted"/>
+		<Place2 type="sz" value="D:\TEMP"/>
+		<Place3 type="sz"/>
+		<Place4 type="sz"/>
+	</FavoritePlaces>
+	<FileAssociations>
+		<AutoAddNewFileTypes type="dword" value="1"/>
+		<FileTypesEx type="sz" value="bprj;1;1;1|Chapters.xml;0;1;0|dvr-ms;1;0;0|m2ts;1;0;0|mkv;1;0;0|mp4;1;0;0|mpeg;1;0;0|mpg;1;0;0|rec;1;0;0|tivo;1;0;0|ts;1;0;0|VOB;1;0;0|VPrj;0;1;0|wtv;1;0;0|"/>
+		<RegisterAtStart type="dword" value="0"/>
+	</FileAssociations>
+	<Filename>
+		<BatchQueueFolder type="sz" value="D:\TEMP\SCRATCH\"/>
+		<FileOpen type="sz" value="T:\HDTV\autoTVS-mpg\Converted\test\"/>
+		<FileSave type="sz" value="D:\TEMP\SCRATCH\"/>
+		<FileSaveQSF type="sz" value="D:\TEMP\SCRATCH\"/>
+		<ProjectSave type="sz" value="T:\HDTV\autoTVS-mpg\Converted\test\"/>
+	</Filename>
+	<FolderHistory>
+		<Folder0 type="sz" value="T:\HDTV\autoTVS-mpg\Converted"/>
+		<Folder1 type="sz" value="D:\TEMP"/>
+		<Folder2 type="sz" value="C:\SOFTWARE\NPP"/>
+		<Folder3 type="sz" value="D:\TEMP\SCRATCH"/>
+		<Folder4 type="sz" value="G:\HDTV"/>
+	</FolderHistory>
+	<GeneralParameters>
+		<AutoApplyLastProject type="dword" value="0"/>
+		<AutoDisplayNTSCCaptions type="dword" value="0"/>
+		<AutoPlayAtOpen type="dword" value="0"/>
+		<AutoRecoveryInterval type="dword" value="5"/>
+		<AutoReplaceOverlappingCuts type="dword" value="0"/>
+		<ClearCutsOnBatch type="dword" value="0"/>
+		<CutIncludesLastFrame type="dword" value="1"/>
+		<CutModeEditingFlag type="dword" value="1"/>
+		<Debugging type="dword" value="0"/>
+		<DefaultProfileSelection type="dword" value="0"/>
+		<DefaultProjectFolder type="dword" value="0"/>
+		<DiagnosticLevel2 type="dword" value="1"/>
+		<DisableQueuedToBatchAlert type="dword" value="1"/>
+		<ExitOptions type="dword" value="0"/>
+		<FrameAccurate type="dword" value="1"/>
+		<LastUsedExt_H264 type="sz" value="ts"/>
+		<LastUsedExt_MPEG2 type="sz" value="mp4"/>
+		<LastUsedProfile_H264 type="sz" value="Transport Stream"/>
+		<LastUsedProfile_MPEG2 type="sz" value="zzz-H.264-MP4-general-VRD6"/>
+		<LeftClickPlayPause type="dword" value="1"/>
+		<OneClickSelection type="dword" value="1"/>
+		<PreferredAudio type="dword" value="0"/>
+		<PreviewLeadinSecs type="dword" value="0"/>
+		<ProfileGroupMode type="dword" value="0"/>
+		<PromptJoinerDescriptions type="dword" value="0"/>
+		<SeekWaitMsecs type="dword" value="10000"/>
+		<SelectFileOnSave type="dword" value="0"/>
+		<ShowFullPathInTitleBar type="dword" value="1"/>
+		<ShowOnScreenInformation type="dword" value="0"/>
+		<TooltipSpeed type="dword" value="3"/>
+	</GeneralParameters>
+	<H264Options>
+		<CacheCompression type="dword" value="0"/>
+		<CacheFrames2 type="dword" value="1000"/>
+		<FrameRateMode type="dword" value="0"/>
+		<IDRCutSeconds type="dword" value="5"/>
+		<MP4TempFolder type="sz" value="D:\TEMP"/>
+		<RemoveAllSEI type="dword" value="0"/>
+	</H264Options>
+	<HotKeys/>
+	<IntelQSPrefs/>
+	<NavigationParameters>
+		<Button1 type="dword" value="0"/>
+		<Button2 type="dword" value="30"/>
+		<Button3 type="dword" value="120"/>
+		<ControlMultiplier type="dword" value="3"/>
+		<IFrameSeekSecs type="dword" value="0"/>
+		<MouseWheelDirection type="dword" value="0"/>
+		<MouseWheelMovement1 type="dword" value="0"/>
+		<MoveArrow1 type="dword" value="0"/>
+		<MoveArrowCtrl1 type="dword" value="7"/>
+		<MoveArrowCtrlShifted1 type="dword" value="5"/>
+		<MoveArrowShifted1 type="dword" value="3"/>
+		<PersistBookmark type="dword" value="0"/>
+		<ShiftMultiplier type="dword" value="2"/>
+		<SliderSecs type="dword" value="120"/>
+		<TimeCodeFormat type="dword" value="0"/>
+	</NavigationParameters>
+	<NVEncPrefs/>
+	<PlaybackDeviceOptions>
+		<DeinterlaceMethod type="dword" value="0"/>
+		<DirectSoundDevice type="sz" value="Primary Sound Driver"/>
+		<DisplayAspectRatio type="dword" value="0"/>
+		<DisplayDimensionCustHeight type="dword" value="576"/>
+		<DisplayDimensionCustWidth type="dword" value="720"/>
+		<DisplayDimensionType type="dword" value="0"/>
+		<MaintainAspectRatio type="dword" value="1"/>
+		<PreviewBufferSize type="dword" value="16"/>
+		<ResizeableWindows type="dword" value="0"/>
+		<UseYUVAcceleration type="dword" value="1"/>
+		<UsingDirectSound type="dword" value="1"/>
+		<VideoDriverIdx2 type="dword" value="3"/>
+	</PlaybackDeviceOptions>
+	<PlusOptions>
+		<AllowCRIDDeletion type="dword" value="0"/>
+		<AutoCombineSequentialFiles type="dword" value="0"/>
+		<AutoCombineVLSTDes type="dword" value="0"/>
+		<AutoCombineVLSTFolder type="sz" value="C:\Users\u\AppData\Roaming\VideoReDo-TVSuite6"/>
+		<CRIDFileFolder type="sz"/>
+		<CRIDProcessingEnabled type="dword" value="0"/>
+		<MultiFileAction type="dword" value="0"/>
+		<ReducePriorityWhileSaving type="dword" value="0"/>
+		<SpoilerAvoidDefault type="dword" value="0"/>
+		<SpoilerAvoidSize type="dword" value="0"/>
+	</PlusOptions>
+	<QSFDlg>
+		<FavoritesOnly type="dword" value="0"/>
+	</QSFDlg>
+	<QSFFilterScan/>
+	<Recent_File_List name="Recent File List">
+		<File1 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\test\Action-Adventure-Historical-Movie-Sci-Fi Movie- Ragnarok -Aka- G-ten Ragnarok--SBS World Movies.aac.2019-09-26.BPRJ"/>
+		<File2 type="sz" value="G:\HDTV\autoTVS-ts\Movie Movie- Fury 2019-10-11 7mate Adelaide.ts"/>
+		<File3 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Documentary-Nature David Attenborough-s Life 2019-10-11 Creatures Of The Deep 9Gem HD Adelaide.aac.mp4"/>
+		<File4 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Comedy-Movie Movie- Captain Ron 2019-10-11 7flix Adelaide.aac.mp4"/>
+		<File5 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\To Be Advised 2019-10-10 7HD Adelaide.aac.mp4"/>
+		<File6 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Sci-Fi Timeless 2019-10-08 The King Of The Delta Blues 9HD Adelaide.aac.mp4"/>
+		<File7 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Movie-Sci-Fi Sci-Fi Sunday 2019-10-06 44 Adelaide.aac.mp4"/>
+		<File8 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Movie Movie- Sword and the Dragon 2019-10-10 44 Adelaide.aac.mp4"/>
+		<File9 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Movie Movie- A Little Chaos 2019-10-06 SBS World Movies.aac.mp4"/>
+	</Recent_File_List>
+	<SaveVideoDlg>
+		<FavoritesOnly type="dword" value="0"/>
+	</SaveVideoDlg>
+	<SceneDetection/>
+	<Special>
+		<AllowMultipleDimensions type="dword" value="1"/>
+		<AllowUltra4096Output type="dword" value="1"/>
+		<FastEncoder type="dword" value="1"/>
+		<FastEncoderDebugLogging type="dword" value="1"/>
+		<LogFileDisplayApp type="sz" value="C:\SOFTWARE\NPP\notepad++.exe"/>
+		<MaxGOPLengthSecs type="dword" value="15"/>
+		<ShowTrayIconInSilentMode type="dword" value="1"/>
+		<TSMuxerBRLogging type="dword" value="1"/>
+		<TimecodeInHundreds type="dword" value="1"/>
+	</Special>
+	<Startup>
+		<AskInternetPermission type="dword" value="1"/>
+		<CheckForNewBetas type="dword" value="0"/>
+		<ConfigurationWizardVersion type="sz" value="6.60.4.806"/>
+		<DayLastVersionChecked type="dword" value="5723"/>
+		<DaysToKeepLogs type="dword" value="15"/>
+		<DisplaySplashScreen type="dword" value="1"/>
+		<EnableLocalizationTools type="dword" value="0"/>
+		<LanguageCode type="sz" value="EN"/>
+		<LastBetaBuildChecked type="dword" value="806"/>
+		<LogfileFolder type="sz" value="G:\HDTV"/>
+		<MakeDatedLogFilename type="dword" value="1"/>
+		<ProfileXMLPath type="sz"/>
+		<SliderClickToDrag type="dword" value="0"/>
+		<UIStyle type="dword" value="0"/>
+		<UpdateCheckFrequency type="dword" value="0"/>
+		<UserStyle type="sz"/>
+		<UserStylesFolder type="sz" value="G:\HDTV"/>
+	</Startup>
+	<ThumbnailOptions/>
+	<TipOfTheDay>
+		<TipNumber type="dword" value="28002"/>
+	</TipOfTheDay>
+	<TipsAtStartup>
+		<ShowTips type="dword" value="0"/>
+	</TipsAtStartup>
+	<TopfieldOutput>
+		<EventDefault type="sz"/>
+		<EventText type="sz" value="{ORIG}"/>
+		<ShortDescription type="sz" value="{ORIG} Edited on {DATE} at {TIME}"/>
+		<TopfieldType type="dword" value="0"/>
+	</TopfieldOutput>
+	<Transitions>
+		<EnableAudioTransition type="dword" value="1"/>
+		<TitleDurationSecs type="sz" value="5.000000"/>
+		<TitleFadeinSecs type="sz" value="1.000000"/>
+		<TitleFadeoutSecs type="sz" value="1.500000"/>
+		<TitleOverlaysVideo type="dword" value="1"/>
+		<TransitionDuration type="sz" value="1.000000"/>
+		<TransitionMidpoint type="sz" value="0.500000"/>
+		<TransitionType type="dword" value="0"/>
+	</Transitions>
+	<VOLUME>
+		<SavedVolume type="dword" value="-1806"/>
+	</VOLUME>
+	<WindowPOS>
+		<ControlWindow>
+			<Height type="dword" value="616"/>
+			<Width type="dword" value="-921"/>
+			<X type="dword" value="652"/>
+			<Y type="dword" value="102"/>
+		</ControlWindow>
+		<ProfileListEx>
+			<Collapsed type="sz"/>
+			<Height type="dword" value="563"/>
+			<Width type="dword" value="585"/>
+		</ProfileListEx>
+		<QSFDlg>
+			<Height type="dword" value="635"/>
+			<Width type="dword" value="696"/>
+		</QSFDlg>
+		<SaveVideoDlg>
+			<Height type="dword" value="514"/>
+			<Width type="dword" value="672"/>
+		</SaveVideoDlg>
+		<ThumbNails type="dword" value="0"/>
+	</WindowPOS>
+</videoredo_settings>

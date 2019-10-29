@@ -1,0 +1,40 @@
+<VRDOutputProfile enabled="true">
+	<Name>zzz-H.264-MP4</Name>
+	<OutputMode>Smart</OutputMode>
+	<MPEG2EncoderQuality>High</MPEG2EncoderQuality>
+<RecodeMode>Quality</RecodeMode>
+	<RecodeQualities>
+		<MPEG2>100</MPEG2>
+		<H264>100</H264>
+	</RecodeQualities>
+	<FileType>MP4</FileType>
+	<FileExt></FileExt>
+	<OutputLibrary>
+		<Program>None</Program>
+		<CustomPath></CustomPath>
+	</OutputLibrary>
+	<DefaultOutputDir>T:\HDTV\autoTVS-mpg</DefaultOutputDir>
+	<VideoAttributes>
+		<Encoder>H264</Encoder>
+		<AspectRatio>No Change</AspectRatio>
+		<AspectCorrection>None</AspectCorrection>
+		<EncodeDimensions>
+			<Width>1920</Width>
+			<Height>1088</Height>
+		</EncodeDimensions>
+		<EncodeBitrate>0</EncodeBitrate>
+		<HeaderBitrate>0</HeaderBitrate>
+		<MaxBitrate>0</MaxBitrate>
+		<EncodingMode>DP</EncodingMode>
+		<DeinterlaceMethod>None</DeinterlaceMethod>
+		<FrameRate>No Change</FrameRate>
+	</VideoAttributes>
+	<AudioAttributes>
+		<Encoder>Auto</Encoder>
+		<Bitrate>0</Bitrate>
+		<SampleRate>No Change</SampleRate>
+		<ChannelMode>Auto</ChannelMode>
+		<AllowMultiAudio>False</AllowMultiAudio>
+		<LPCMEndianess>Little</LPCMEndianess>
+	</AudioAttributes>
+</VRDOutputProfile>

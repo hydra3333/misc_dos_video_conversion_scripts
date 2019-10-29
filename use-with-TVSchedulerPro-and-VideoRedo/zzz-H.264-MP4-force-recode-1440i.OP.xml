@@ -1,0 +1,43 @@
+<VRDOutputProfile enabled="true">
+	<Name>zzz-H.264-MP4-force-recode-1440i</Name>
+	<OutputMode>Transcode</OutputMode>
+	<FileType>MP4</FileType>
+	<FileExt></FileExt>
+	<OutputLibrary>
+		<Program>None</Program>
+		<CustomPath></CustomPath>
+	</OutputLibrary>
+	<DefaultOutputDir>T:\HDTV\autoTVS-mpg</DefaultOutputDir>
+	<VideoAttributes>
+		<Encoder>H264</Encoder>
+		<AspectRatio>No Change</AspectRatio>
+		<AspectCorrection>None</AspectCorrection>
+		<EncodeDimensions>
+			<Width>1440</Width>
+			<Height>1080</Height>
+		</EncodeDimensions>
+		<EncodeBitrate>3000</EncodeBitrate>
+		<HeaderBitrate>3000</HeaderBitrate>
+		<MaxBitrate>10000</MaxBitrate>
+		<EncodingMode>SP</EncodingMode>
+		<DeinterlaceMethod>None</DeinterlaceMethod>
+		<FrameRate>No Change</FrameRate>
+	</VideoAttributes>
+	<AudioAttributes>
+		<Encoder>AAC</Encoder>
+		<Bitrate>320</Bitrate>
+		<SampleRate>No Change</SampleRate>
+		<ChannelMode>Stereo</ChannelMode>
+		<Normalize>-0.010000</Normalize>
+		<AllowMultiAudio>False</AllowMultiAudio>
+		<LPCMEndianess>Little</LPCMEndianess>
+	</AudioAttributes>
+	<EncodingOptions>
+		<H264>
+			<profile>high</profile>
+			<level_id>41</level_id>
+			<interlace_mode>interlaced</interlace_mode>
+			<entropy_coding_mode>cavlc</entropy_coding_mode>
+		</H264>
+	</EncodingOptions>
+</VRDOutputProfile>

@@ -1,0 +1,41 @@
+1. To grant a user login as Batch priv:
+
+http://technet.microsoft.com/en-au/library/cc722152.aspx
+
+http://www.howtogeek.com/school/using-windows-admin-tools-like-a-pro/lesson2/all/
+
+
+run mmc
+add snapin computer management (choose "local" when prompted)
+click on Local Users and groups
+Click Groups
+
+Double click Remote Desktop Users
+Click Add - Dave, nil, u and save
+
+Double click Event Log Readers
+Click Add - Dave, nil, u and save
+
+Double click Distributed COM Users
+Click Add - Administrator Dave, nil, u and save
+
+
+
+Run "C:\Windows\System32\secpol.msc"
+(it won't run unless you provide the full path)
+open  Local Policies
+open User Rights Assignment
+
+double click on Logon as a batch job 
+click advanced
+Check Administrators group is alraedy in
+click click find now
+Choose Administrator and u and nil and Dave
+Click apply
+
+For the the scheduled task entry - 
+Check run with highest privs
+Check run whether logged on or not
+Make sure to have the correct "start in" folder ALWAYS WITH QUOTES around it 
+even if the folder is specified in the Program/script field 
+On the General tab, or Configure For, Check the last drop down and make sure it is pointing to correct OS

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<videoredo_settings date="2019-10-26 14:22:03" version="5.4.84.771" company="DRD Systems" application="VideoReDo-TVSuite5" restore_clear="yes">
+	<AdvancedStream>
+		<ElemAudioMsecBetweenTags type="dword" value="0"/>
+		<ElemFrameBetweenTags type="dword" value="0"/>
+		<EncoderConformityChecks type="dword" value="1"/>
+		<IgnoreTSPMTs type="dword" value="0"/>
+		<IncludeLeadingBFrames type="dword" value="1"/>
+		<MBForReadStreamAnalyze type="dword" value="100"/>
+		<MP4VideoMuxBufferSize type="dword" value="30"/>
+		<MaxAudioFrameErrors type="dword" value="32000"/>
+		<MaxBufferLength type="dword" value="8192"/>
+		<MinBufferLength type="dword" value="1024"/>
+		<MultipleAudioStreamSupport type="dword" value="2"/>
+		<NumberOfPTSCheckpoints type="dword" value="8"/>
+		<PMTSamplePoints type="dword" value="3"/>
+		<RecodeBFactorPCT type="dword" value="120"/>
+		<RecodeMinimumQuant type="dword" value="250"/>
+		<RecodePFactorPCT type="dword" value="120"/>
+		<RecodeTargetPct type="dword" value="90"/>
+		<ResyncOptions type="dword" value="1"/>
+		<ResyncSensitivity type="dword" value="2"/>
+		<SkipPIDsWithCA type="dword" value="0"/>
+		<UseQSAsDefault type="dword" value="0"/>
+	</AdvancedStream>
+	<AudioAlert>
+		<BringWindowToTop type="dword" value="0"/>
+		<OutputAlertAudioFilename type="sz"/>
+		<OutputCompleteAlert type="dword" value="0"/>
+	</AudioAlert>
+	<Batch_Manager name="Batch Manager">
+		<Height type="dword" value="596"/>
+		<Maximized type="dword" value="0"/>
+		<Width type="dword" value="810"/>
+	</Batch_Manager>
+	<Batch_Processing name="Batch Processing">
+		<RunningPlus type="dword" value="1"/>
+	</Batch_Processing>
+	<BatchParameters>
+		<CloseWhenIdle type="dword" value="0"/>
+		<CloseWithVRD type="dword" value="0"/>
+		<IdleMinutes type="dword" value="5"/>
+		<LaunchType type="dword" value="0"/>
+		<MinimizeToTray type="dword" value="1"/>
+		<RetentionDays type="dword" value="5"/>
+		<ShutdownPCOnIdleClose type="dword" value="0"/>
+		<StartMinimized type="dword" value="0"/>
+		<StartRunning type="dword" value="0"/>
+		<WatchFolder type="sz"/>
+	</BatchParameters>
+	<ChapterMarkers>
+		<AtCutPoints type="dword" value="1"/>
+		<AtSceneMarkers type="dword" value="1"/>
+		<AutoCreateChapters type="dword" value="0"/>
+		<EqualSpacingExclusive type="dword" value="1"/>
+		<EqualSpacingInterval type="dword" value="2"/>
+		<EqualSpacingType type="dword" value="0"/>
+		<ImportChaptersOnOpen type="dword" value="0"/>
+		<IncludeFirstFrame type="dword" value="1"/>
+		<MinimumIntervalSecs type="dword" value="1"/>
+		<OutputFileMask type="sz" value="%F_Chapters.txt"/>
+		<OutputFileTypes type="dword" value="0"/>
+		<OutputLineFormat type="sz" value="%T"/>
+		<TimecodeFormat type="dword" value="0"/>
+		<UseEqualSpacing type="dword" value="1"/>
+	</ChapterMarkers>
+	<CharmParameters>
+		<CharmFunc1 type="dword" value="1"/>
+		<CharmFunc2 type="dword" value="2"/>
+		<CharmFunc3 type="dword" value="3"/>
+		<CharmFunc4 type="dword" value="4"/>
+		<CharmFunc5 type="dword" value="5"/>
+		<CharmFunc6 type="dword" value="6"/>
+		<CharmText1 type="sz"/>
+		<CharmText2 type="sz"/>
+		<CharmText3 type="sz"/>
+		<CharmText4 type="sz"/>
+		<CharmText5 type="sz"/>
+		<CharmText6 type="sz"/>
+	</CharmParameters>
+	<CustomButtonParameters>
+		<CustomFunc1 type="dword" value="2"/>
+		<CustomFunc2 type="dword" value="0"/>
+		<CustomFunc3 type="dword" value="0"/>
+		<CustomFunc4 type="dword" value="0"/>
+		<CustomFunc5 type="dword" value="0"/>
+		<CustomFunc6 type="dword" value="0"/>
+		<CustomOption1 type="sz"/>
+		<CustomOption2 type="sz"/>
+		<CustomOption3 type="sz"/>
+		<CustomOption4 type="sz"/>
+		<CustomOption5 type="sz"/>
+		<CustomOption6 type="sz"/>
+		<CustomText1 type="sz"/>
+		<CustomText2 type="sz"/>
+		<CustomText3 type="sz"/>
+		<CustomText4 type="sz"/>
+		<CustomText5 type="sz"/>
+		<CustomText6 type="sz"/>
+	</CustomButtonParameters>
+	<DebugOptions/>
+	<DVDFolders>
+		<AutoMinimizeBurner type="dword" value="0"/>
+		<BurnProtocol type="dword" value="0"/>
+		<DVDEncoderSpeed type="dword" value="0"/>
+		<FolderType type="dword" value="1"/>
+		<ForceSilentAC3 type="dword" value="0"/>
+		<HideVRDDuringBurn type="dword" value="1"/>
+		<IncludeABInDVDDriveSearch type="dword" value="0"/>
+		<MaximumBurnSpeed type="dword" value="0"/>
+		<OverheadMB type="dword" value="50"/>
+		<PadBurnDataTo1GB type="dword" value="1"/>
+		<PrivateTemplatesFolder type="sz" value="G:\HDTV"/>
+		<TempFolderName type="sz" value="D:\TEMP"/>
+		<WarnIfAddingNonCompliant type="dword" value="0"/>
+	</DVDFolders>
+	<DVRMS/>
+	<DVRMSOutput>
+		<ClearDatabaseAssoc type="dword" value="1"/>
+		<DVRMSVideoBufferMB type="dword" value="3"/>
+		<MetadataPrompt type="dword" value="2"/>
+		<PatchDVRMSDuration type="dword" value="1"/>
+		<ProcessClosedCaptions type="dword" value="1"/>
+		<ResetDateAndTime type="dword" value="0"/>
+		<Subtitle type="sz"/>
+		<SubtitleDesc type="sz"/>
+		<TagStreamTypes type="dword" value="1"/>
+		<Title type="sz"/>
+	</DVRMSOutput>
+	<FavoritePlaces>
+		<Place0 type="sz" value="G:\HDTV"/>
+		<Place1 type="sz" value="T:\HDTV\autoTVS-mpg"/>
+		<Place2 type="sz" value="D:\temp"/>
+		<Place3 type="sz"/>
+		<Place4 type="sz"/>
+	</FavoritePlaces>
+	<FileAssociations>
+		<AutoAddNewFileTypes type="dword" value="1"/>
+		<FileTypesEx type="sz" value="bprj;1;1;1|Chapters.xml;0;1;0|dvr-ms;1;0;0|m2ts;1;0;0|mkv;1;0;0|mp4;1;0;0|mpeg;1;0;0|mpg;1;0;0|rec;1;0;0|tivo;1;0;0|ts;1;0;0|vlst;1;0;0|VOB;1;0;0|VPrj;0;1;0|vset;0;1;0|wtv;1;0;0|"/>
+		<RegisterAtStart type="dword" value="0"/>
+	</FileAssociations>
+	<Filename>
+		<BatchQueueFolder type="sz" value="G:\DVD\BLUE_PLANET_II\"/>
+		<DVDFolderOpen type="sz" value="G:\DVD\LIFE_2017\VIDEO_TS\"/>
+		<FileOpen type="sz" value="T:\HDTV\autoTVS-mpg\Converted\"/>
+		<FileOpenQSF type="sz" value="G:\HDTV\"/>
+		<FileSave type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Ready\"/>
+		<FileSaveQSF type="sz" value="D:\TEMP\SCRATCH\"/>
+		<ProjectSave type="sz" value="T:\HDTV\autoTVS-mpg\Converted\"/>
+	</Filename>
+	<FolderHistory>
+		<Folder0 type="sz" value="D:\TEMP"/>
+		<Folder1 type="sz" value="G:\HDTV\0\chop"/>
+		<Folder10 type="sz" value="T:\HDTV\WDTVlive\MP4-VS\1"/>
+		<Folder11 type="sz" value="E:\MULTIMEDIA\HomePics-06\2016.11.26-jess-22nd-BirthdayParty-KensingtonHotel"/>
+		<Folder12 type="sz" value="T:\HDTV\WDTVlive\MP4-VS\x64-1"/>
+		<Folder13 type="sz" value="T:\HDTV\WDTVlive\MP4\5-mp4-conversion"/>
+		<Folder14 type="sz" value="G:\DVD\SMILEY\VIDEO_TS"/>
+		<Folder15 type="sz" value="G:\DVD\SMILEY"/>
+		<Folder16 type="sz" value="G:\DVD\SMILEY_GETS_A_GUN\VIDEO_TS"/>
+		<Folder17 type="sz" value="G:\DVD\SMILEY_GETS_A_GUN"/>
+		<Folder18 type="sz" value="G:\DVD\ON_OUR_SELECTION_DAD_AND_DAVE\VIDEO_TS"/>
+		<Folder19 type="sz" value="G:\DVD\ON_OUR_SELECTION_DAD_AND_DAVE"/>
+		<Folder2 type="sz" value="T:\HDTV\WDTVlive\MP4hd"/>
+		<Folder20 type="sz" value="G:\DVD\Fortitude2\1"/>
+		<Folder21 type="sz" value="G:\DVD\Fortitude2\2"/>
+		<Folder22 type="sz" value="G:\DVD\Fortitude2\3"/>
+		<Folder23 type="sz" value="G:\DVD\Fortitude2\4"/>
+		<Folder24 type="sz" value="G:\DVD\Fortitude2\5"/>
+		<Folder25 type="sz" value="G:\DVD\Fortitude2\6"/>
+		<Folder26 type="sz" value="G:\DVD\Fortitude2\7"/>
+		<Folder27 type="sz" value="G:\DVD\Fortitude2\8"/>
+		<Folder28 type="sz" value="G:\DVD\Fortitude2\9"/>
+		<Folder29 type="sz" value="G:\DVD\Fortitude2\10"/>
+		<Folder3 type="sz" value="T:\HDTV\WDTVlive\MP4\1"/>
+		<Folder30 type="sz" value="G:\DVD\Fortitude2"/>
+		<Folder31 type="sz" value="G:\DVD\Life-D1"/>
+		<Folder32 type="sz" value="G:\DVD\Life-D2"/>
+		<Folder33 type="sz" value="G:\DVD\Life\done"/>
+		<Folder34 type="sz" value="G:\DVD\Life"/>
+		<Folder35 type="sz" value="G:\DVD\BLUE_PLANET_II_D1\VIDEO_TS"/>
+		<Folder36 type="sz" value="G:\DVD\BLUE_PLANET_II_D2\VIDEO_TS"/>
+		<Folder37 type="sz" value="G:\DVD\BLUE_PLANET_II\old"/>
+		<Folder38 type="sz" value="G:\DVD\BLUE_PLANET_II"/>
+		<Folder39 type="sz" value="G:\DVD\FORTITUDE_SEASON_1_DISC_1\VIDEO_TS"/>
+		<Folder4 type="sz" value="T:\HDTV\WDTVlive\MP4\4"/>
+		<Folder40 type="sz" value="G:\DVD\FORTITUDE_SEASON_1_DISC_2\VIDEO_TS"/>
+		<Folder41 type="sz" value="G:\DVD\FORTITUDE_SEASON_1_DISC_3\VIDEO_TS"/>
+		<Folder42 type="sz" value="G:\DVD\Fortitude"/>
+		<Folder43 type="sz" value="G:\DVD\Attenborough-60-years-D1"/>
+		<Folder44 type="sz" value="G:\DVD\Attenborough-60-years-D2"/>
+		<Folder45 type="sz" value="G:\DVD\Attenborough-60-years-D3"/>
+		<Folder46 type="sz" value="G:\DVD\Attenborough-60-years"/>
+		<Folder47 type="sz" value="G:\DVD\THE_MISSING_POSTMAN"/>
+		<Folder48 type="sz" value="G:\DVD\THE_MISSING_POSTMAN\VIDEO_TS"/>
+		<Folder49 type="sz" value="G:\DVD\The Space Between Us\VIDEO_TS"/>
+		<Folder5 type="sz" value="T:\HDTV\WDTVlive\MP4\3"/>
+		<Folder50 type="sz" value="G:\DVD\LIFE_2017\VIDEO_TS"/>
+		<Folder51 type="sz" value="G:\DVD\M"/>
+		<Folder52 type="sz" value="H:\a_movies"/>
+		<Folder53 type="sz" value="G:\HDTV\000-cut"/>
+		<Folder54 type="sz" value="G:\DVD\EurekaStockade"/>
+		<Folder55 type="sz" value="G:\DVD\222"/>
+		<Folder56 type="sz" value="G:\HDTV\2"/>
+		<Folder57 type="sz" value="G:\HDTV\test-VRD-failure"/>
+		<Folder58 type="sz" value="G:\DVD\M\new"/>
+		<Folder59 type="sz" value="G:\DVD\M\NewsFront"/>
+		<Folder6 type="sz" value="T:\HDTV\WDTVlive\MP4\2"/>
+		<Folder60 type="sz" value="D:\temp"/>
+		<Folder61 type="sz" value="T:\HDTV\autoTVS-mpg"/>
+		<Folder62 type="sz" value="T:\HDTV\autoTVS-mpg\Converted"/>
+		<Folder63 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Ready"/>
+		<Folder64 type="sz" value="C:\SOFTWARE\NPP"/>
+		<Folder65 type="sz" value="D:\TEMP\SCRATCH"/>
+		<Folder66 type="sz" value="G:\HDTV"/>
+		<Folder7 type="sz" value="T:\HDTV\autoTVS-mpg\Catalyst"/>
+		<Folder8 type="sz" value="G:\HDTV\autoTVS-mpg"/>
+		<Folder9 type="sz" value="T:\HDTV\WDTVlive\MP4-VS\2"/>
+	</FolderHistory>
+	<General>
+		<DVDOpenAutoQSF type="dword" value="1"/>
+	</General>
+	<GeneralParameters>
+		<AutoApplyLastProject type="dword" value="0"/>
+		<AutoDisplayNTSCCaptions type="dword" value="0"/>
+		<AutoPlayAtOpen type="dword" value="0"/>
+		<AutoRecoveryInterval type="dword" value="5"/>
+		<AutoReplaceOverlappingCuts type="dword" value="0"/>
+		<ClearCutsOnBatch type="dword" value="0"/>
+		<CutIncludesLastFrame type="dword" value="1"/>
+		<CutModeEditingFlag type="dword" value="1"/>
+		<Debugging type="dword" value="0"/>
+		<DefaultProfileSelection type="dword" value="1"/>
+		<DefaultProjectFolder type="dword" value="0"/>
+		<DiagnosticLevel type="dword" value="0"/>
+		<DiagnosticLevel2 type="dword" value="2"/>
+		<DisableQueuedToBatchAlert type="dword" value="1"/>
+		<ExitOptions type="dword" value="0"/>
+		<FrameAccurate type="dword" value="1"/>
+		<LastProjectLoaded type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Travel Random Aussies 44 Adelaide.2019-10-25.BPRJ"/>
+		<LastUsedExt_H264 type="sz" value="mp4"/>
+		<LastUsedExt_MPEG2 type="sz" value="mpg"/>
+		<LastUsedProfile_H264 type="sz" value="zzz-H.264-MP4-general (*.mp4)"/>
+		<LastUsedProfile_MPEG2 type="sz" value="zzz-MPEG2ps (*.mpg)"/>
+		<LeftClickPlayPause type="dword" value="1"/>
+		<OneClickSelection type="dword" value="1"/>
+		<PreferredAudio type="dword" value="0"/>
+		<PreviewLeadinSecs type="dword" value="0"/>
+		<PromptJoinerDescriptions type="dword" value="0"/>
+		<SeekWaitMsecs type="dword" value="10000"/>
+		<ShowFullPathInTitleBar type="dword" value="1"/>
+		<ShowOnScreenInformation type="dword" value="0"/>
+		<TooltipSpeed type="dword" value="3"/>
+		<UseGridEditor type="dword" value="0"/>
+	</GeneralParameters>
+	<H264Options>
+		<CacheCompression type="dword" value="0"/>
+		<CacheFrames type="dword" value="256"/>
+		<FrameRateMode type="dword" value="0"/>
+		<IDRCutSeconds type="dword" value="5"/>
+		<MP4TempFolder type="sz" value="D:\TEMP"/>
+		<RemoveAllSEI type="dword" value="0"/>
+	</H264Options>
+	<Install>
+		<InstallFolder type="sz" value="C:\Program Files (x86)\VideoReDoTVSuite5"/>
+	</Install>
+	<IntelQSPrefs/>
+	<JoinerDialog>
+		<ClearOnSave type="dword" value="0"/>
+		<DescriptionWidth type="dword" value="203"/>
+		<DisplayFullPathname type="dword" value="0"/>
+		<Duration type="dword" value="70"/>
+		<FilenameWidth type="dword" value="241"/>
+	</JoinerDialog>
+	<NavigationParameters>
+		<Button1 type="dword" value="1"/>
+		<Button2 type="dword" value="30"/>
+		<Button3 type="dword" value="120"/>
+		<ControlMultiplier type="dword" value="5"/>
+		<IFrameSeekSecs type="dword" value="0"/>
+		<MouseWheelDirection type="dword" value="256"/>
+		<MouseWheelMovement1 type="dword" value="0"/>
+		<MoveArrow1 type="dword" value="0"/>
+		<MoveArrowCtrl1 type="dword" value="7"/>
+		<MoveArrowCtrlShifted1 type="dword" value="5"/>
+		<MoveArrowShifted1 type="dword" value="3"/>
+		<PersistBookmark type="dword" value="16842752"/>
+		<ShiftMultiplier type="dword" value="2"/>
+		<ShowTimecodeAsNPT type="dword" value="16777217"/>
+		<SliderSecs type="dword" value="120"/>
+		<TimeCodeFormat type="dword" value="0"/>
+	</NavigationParameters>
+	<PlaybackDeviceOptions>
+		<DeinterlaceDisplay type="dword" value="1"/>
+		<DirectSoundDevice type="sz" value="Primary Sound Driver"/>
+		<DisplayAspectRatio type="dword" value="0"/>
+		<DisplayDimensionCustHeight type="dword" value="576"/>
+		<DisplayDimensionCustWidth type="dword" value="720"/>
+		<DisplayDimensionType type="dword" value="0"/>
+		<MaintainAspectRatio type="dword" value="1"/>
+		<PreviewBufferSize type="dword" value="16"/>
+		<ResizeableWindows type="dword" value="0"/>
+		<UseVideoMemory type="dword" value="0"/>
+		<UseYUVAcceleration type="dword" value="1"/>
+		<UsingDirectSound type="dword" value="1"/>
+		<VideoDriverIdx type="dword" value="2"/>
+		<VideoDriverName type="sz" value="EVR"/>
+	</PlaybackDeviceOptions>
+	<PlusOptions>
+		<AllowCRIDDeletion type="dword" value="0"/>
+		<AutoCombineSequentialFiles type="dword" value="0"/>
+		<AutoCombineVLSTDes type="dword" value="0"/>
+		<AutoCombineVLSTFolder type="sz" value="C:\Users\nil\AppData\Roaming\VideoReDo-TVSuite5"/>
+		<CRIDFileFolder type="sz"/>
+		<CRIDProcessingEnabled type="dword" value="0"/>
+		<MultiFileAction type="dword" value="0"/>
+		<ReducePriorityWhileSaving type="dword" value="0"/>
+		<SpoilerAvoidDefault type="dword" value="0"/>
+		<SpoilerAvoidSize type="dword" value="0"/>
+	</PlusOptions>
+	<QSFFilterScan/>
+	<Recent_File_List name="Recent File List">
+		<File1 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Travel Random Aussies 44 Adelaide.2019-10-25.mp4"/>
+		<File2 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Entertainment Country Cousins 44 Adelaide.2019-10-25.mp4"/>
+		<File3 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama-Mystery-Violence Grantchester Series 4- Episode 2 ABC HD.2019-10-25.mp4"/>
+		<File4 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama-Mystery-Sci-Fi The X-Files Redux 2 SBS VICELAND HD.2019-10-25.mp4"/>
+		<File5 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama-Mystery Thirteen Series 1- Episode 3 ABC HD.2019-10-25.mp4"/>
+		<File6 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama-Movie Movie- Vanilla Sky SBS World Movies.2019-10-25.mp4"/>
+		<File7 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama-Historical Harlots Series 3- Episode 6 SBS VICELAND HD.2019-10-25.mp4"/>
+		<File8 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama-Historical Harlots Series 3- Episode 5 SBS VICELAND HD.2019-10-25.mp4"/>
+		<File9 type="sz" value="T:\HDTV\autoTVS-mpg\Converted\Drama Shakespeare - Hathaway The Rascal Cook ABC HD.2019-10-25.mp4"/>
+	</Recent_File_List>
+	<SceneDetection>
+		<AutoCutSelectedScenes type="dword" value="0"/>
+		<BlackAreaMinFrames type="dword" value="3"/>
+		<BlackLevelAvgValue type="dword" value="35"/>
+		<BlackLevelBottomPct type="dword" value="100"/>
+		<BlackLevelLeftPct type="dword" value="100"/>
+		<BlackLevelMaxContrast type="dword" value="5"/>
+		<BlackLevelMaxValue type="dword" value="180"/>
+		<BlackLevelRightPct type="dword" value="100"/>
+		<BlackLevelTopPct type="dword" value="100"/>
+		<DisableDisplayUpdate type="dword" value="0"/>
+		<MaxAudioLevelAverage type="sz" value="0.000000"/>
+		<MaxAudioLevelPeak type="sz" value="0.000000"/>
+		<MaxSecsForCommercialBlock type="dword" value="241"/>
+		<MinSecsBetweenScenes type="dword" value="5"/>
+		<MinSecsForCommercialBlock type="dword" value="10"/>
+		<PauseBlockBegin type="dword" value="0"/>
+		<PauseBlockEnd type="dword" value="0"/>
+		<PauseEachScene type="dword" value="0"/>
+		<SaveStatsFile type="dword" value="0"/>
+		<ScanningPriority type="dword" value="0"/>
+		<UseAdaptiveFiltering type="dword" value="1"/>
+		<UseBlackLevelDetection type="dword" value="1"/>
+		<UseInteractiveScan type="dword" value="1"/>
+	</SceneDetection>
+	<SDIPlayout/>
+	<Special>
+		<AllowUltra4096Output type="dword" value="1"/>
+		<FastEncoderDebugLogging type="dword" value="1"/>
+		<LogFileDisplayApp type="sz" value="C:\SOFTWARE\NPP\notepad++.exe"/>
+		<MaxGOPLengthSecs type="dword" value="15"/>
+		<ShowTrayIconInSilentMode type="dword" value="1"/>
+		<TSMuxerBRLogging type="dword" value="1"/>
+		<TimecodeInHundreds type="dword" value="1"/>
+		<VersionNoInLogFilename type="dword" value="1"/>
+	</Special>
+	<Startup>
+		<AskInternetPermission type="dword" value="1"/>
+		<CheckForNewBetas type="dword" value="0"/>
+		<ConfigurationWizardVersion type="sz" value="5.4.84.771"/>
+		<DayLastVersionChecked type="dword" value="5697"/>
+		<DaysToKeepLogs type="dword" value="30"/>
+		<EnableLocalizationTools type="dword" value="0"/>
+		<LanguageCode type="sz" value="ENG"/>
+		<LastBetaBuildChecked type="dword" value="771"/>
+		<LogfileFolder type="sz" value="G:\HDTV"/>
+		<MakeDatedLogFilename type="dword" value="1"/>
+		<ProfileXMLPath type="sz"/>
+		<RegistrationRequired type="dword" value="0"/>
+		<SliderClickToDrag type="dword" value="0"/>
+		<UIStyle type="dword" value="1"/>
+		<UpdateCheckFrequency type="dword" value="5"/>
+		<UserStyle type="sz"/>
+		<UserStylesFolder type="sz" value="G:\HDTV"/>
+	</Startup>
+	<ThumbnailOptions/>
+	<TipOfTheDay>
+		<TipNumber type="dword" value="28001"/>
+	</TipOfTheDay>
+	<TipsAtStartup>
+		<ShowTips type="dword" value="0"/>
+	</TipsAtStartup>
+	<TopfieldOutput>
+		<EventDefault type="sz"/>
+		<EventText type="sz" value="{ORIG}"/>
+		<ShortDescription type="sz" value="{ORIG} Edited on {DATE} at {TIME}"/>
+		<TopfieldType type="dword" value="0"/>
+	</TopfieldOutput>
+	<Transitions>
+		<AudioTransitionType type="dword" value="2"/>
+		<TitleDurationSecs type="sz" value="5.000000"/>
+		<TitleFadeinSecs type="sz" value="1.000000"/>
+		<TitleFadeoutSecs type="sz" value="1.500000"/>
+		<TransitionFrames type="dword" value="10"/>
+		<TransitionsEnabled type="dword" value="0"/>
+		<VideoTransitionType type="dword" value="1"/>
+	</Transitions>
+	<VOLUME>
+		<SavedVolume type="dword" value="-1368"/>
+	</VOLUME>
+	<WindowPOS>
+		<ControlWindow>
+			<Height type="dword" value="616"/>
+			<Width type="dword" value="-921"/>
+			<X type="dword" value="311"/>
+			<Y type="dword" value="30"/>
+		</ControlWindow>
+		<ProfileAdvancedGrid>
+			<Collapsed>
+				<num_0 name="0" type="sz"/>
+				<num_1 name="1" type="sz" value="CropAndBorder"/>
+				<num_2 name="2" type="sz" value="NormalizationOptions"/>
+				<num_3 name="3" type="sz"/>
+				<num_4 name="4" type="sz"/>
+				<num_5 name="5" type="sz" value="CanoeData"/>
+				<num_6 name="6" type="sz"/>
+				<num_7 name="7" type="sz"/>
+				<num_8 name="8" type="sz" value="TSOptions"/>
+				<num_9 name="9" type="sz" value="MXFOptions"/>
+				<count type="dword" value="10"/>
+			</Collapsed>
+			<Expanded>
+				<num_0 name="0" type="sz" value="General"/>
+				<num_1 name="1" type="sz" value="Video"/>
+				<num_10 name="10" type="sz" value="AudioAdvanced"/>
+				<num_11 name="11" type="sz" value="MPEG2StreamOptions"/>
+				<num_12 name="12" type="sz" value="H264StreamOptions"/>
+				<num_13 name="13" type="sz" value="MuxRate"/>
+				<num_14 name="14" type="sz" value="PSOptions"/>
+				<num_15 name="15" type="sz" value="MP4Options"/>
+				<num_16 name="16" type="sz" value="RecodeOptions"/>
+				<num_17 name="17" type="sz" value="QFOptions"/>
+				<num_18 name="18" type="sz" value="BROptions"/>
+				<num_19 name="19" type="sz" value="SizeOptions"/>
+				<num_2 name="2" type="sz" value="CropValues"/>
+				<num_20 name="20" type="sz" value="MiscAdvanced"/>
+				<num_21 name="21" type="sz" value="EncodingParameters"/>
+				<num_22 name="22" type="sz" value="MPEG1Parameters"/>
+				<num_23 name="23" type="sz" value="MPEG2Parameters"/>
+				<num_24 name="24" type="sz" value="H264Parameters"/>
+				<num_25 name="25" type="sz" value="H265Parameters"/>
+				<num_26 name="26" type="sz" value="StatsParameters"/>
+				<num_3 name="3" type="sz" value="BorderValues"/>
+				<num_4 name="4" type="sz" value="Audio"/>
+				<num_5 name="5" type="sz" value="AdScan"/>
+				<num_6 name="6" type="sz" value="ScanArea"/>
+				<num_7 name="7" type="sz" value="ThresholdLevels"/>
+				<num_8 name="8" type="sz" value="AudioParams"/>
+				<num_9 name="9" type="sz" value="Advanced"/>
+				<count type="dword" value="27"/>
+			</Expanded>
+			<Height type="dword" value="1032"/>
+			<Width type="dword" value="564"/>
+		</ProfileAdvancedGrid>
+		<ProfileList>
+			<Height type="dword" value="450"/>
+			<Width type="dword" value="422"/>
+		</ProfileList>
+		<ThumbNails type="dword" value="0"/>
+	</WindowPOS>
+</videoredo_settings>
